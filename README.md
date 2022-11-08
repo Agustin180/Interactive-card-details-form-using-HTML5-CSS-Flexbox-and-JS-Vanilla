@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/interactivecarddetailsformusinghtml5cssflexboxandjsvanilla-rq0GTO5DFq)
+- Live Site URL: (https://agustin180.github.io/Interactive-card-details-form-using-HTML5-CSS-Flexbox-and-JS-Vanilla/)
 
 ## My process
 
