@@ -282,6 +282,12 @@ body {
     display: none;
 }
 
+@media screen and (max-width: 1374px) {
+    .attribution{
+        font-size: 13px;
+    }
+}
+
 @media screen and (max-width: 1148px) {
     .content-front-card {
         left: 75px;
@@ -301,6 +307,9 @@ body {
 @media screen and (max-width: 998px) {
     .total-content-general {
         flex-direction: column;
+    }
+    .attribution {
+        margin-left: 15px;
     }
 
     .bg-subcontent-image {
@@ -460,8 +469,11 @@ body {
     .content-back-card {
         left: 105px;
     }
-
-    #input-name,
+    .attribution {
+        margin-left: 25px;
+        font-size: 10px;
+    }
+    #input-name,    
     #input-number {
         width: 318px;
     }
