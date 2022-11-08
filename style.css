@@ -136,6 +136,16 @@ body {
     justify-content: space-between;
 }
 
+.attribution{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-primary);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+}
+
 .content-back-data {
     display: flex;
     height: 100%;
