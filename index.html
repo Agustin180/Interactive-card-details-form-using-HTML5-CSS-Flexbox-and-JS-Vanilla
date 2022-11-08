@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+
+<body>
+  <section class="total-content-general">
+    <div class='bg-content-card'>
+      <img class='bg-subcontent-image' src="./images/bg-main-desktop.png" />
+      <img class='bg-subcontent-imagemobile' src="./images/bg-main-mobile.png" />
+      <div class='content-front-card'>
+        <img class='content-front-image' src="./images/bg-card-front.png" />
+        <div class="content-front">
+          <div>
+            <img class='card-front-logo' src="./images/card-logo.svg" />
+          </div>
+          <div class="card-front-total">
+            <div>
+              <input type="text" id="card-number" placeholder='0000 0000 0000 0000' readonly />
+            </div>
+            <div class="card-front-subcontent">
+              <div>
+                <input type="text" id="card-name" placeholder='JANE APLESEED' readonly />
+              </div>
+              <input type="text" id="card-expired-month" placeholder='00' readonly />
+              <span id="card-expired-separator">/</span>
+              <input type="text" id="card-expired-year" placeholder='00' readonly />
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="content-back-card">
+        <img class='content-back-image' src="./images/bg-card-back.png" />
+        <div class="content-back">
+          <input type="text" id='card-digits' placeholder='000' readonly />
+        </div>
+      </div>
+    </div>
+    <form action='' class="content-back-data">
+      <div id="form-data">
+        <div class='content-inputs'>
+          <label class='content-back-title' for="name">CARDHOLDER NAME</label>
+          <input type="text" maxlength="30" minlength="10" placeholder='e.g. Jane Appleseed' id="input-name"
+            name="name" />
+          <span id="error-blank-name">Can't be blank</span>
+          <span id="error-format-name">Wrong format, letters only</span>
+        </div>
+        <div class='content-inputs' style="height: 87px;">
+          <label class='content-back-title' for="number">CARD NUMBER</label>
+          <input type="text" placeholder='e.g. 1234 5678 9123 0000' maxlength="16" id="input-number" name="number" />
+          <span id="error-blank-number">Can't be blank</span>
+          <span id="error-format-number">Wrong format, numbers only</span>
+        </div>
+
+        <div class="content-back-general-subdata content-inputs">
+          <div class="content-back-subdata">
+            <label class='content-back-title' for="date">EXP.DATE (MM/YY)</label>
+            <div class="content-back-date">
+              <div>
+                <input type="text" placeholder='MM' id="input-month" maxlength="2" name="date" />
+                <span id="error-blank-month">Can't be blank</span>
+                <span id="error-format-month">Wrong format</span>
+              </div>
+              <div>
+                <input type="text" placeholder='YY' id="input-year" maxlength="4" name="date" />
+                <span id="error-blank-year">Can't be blank</span>
+                <span id="error-format-year">Wrong format</span>
+              </div>
+            </div>
+          </div>
+          <div class="content-back-subdata">
+            <label class='content-back-title' for="cvc">CVC</label>
+            <input type="text" placeholder='e.g. 123' maxlength="3" minlength="3" id="input-cvc" name="cvc" />
+            <span id="error-blank-cvc">Can't be blank</span>
+            <span id="error-format-cvc">Wrong format, numbers only</span>
+          </div>
+        </div>
+        <input type="submit" value='Confirm' class="content-back-button" id="button-confirm" />
+      </div>
+      <div id="form-validation">
+        <img src="./images/icon-complete.svg" />
+        <h1 class="content-title-confirmation">THANK YOU!</h1>
+        <p class="content-text-confirmation">We've added your card details</p>
+        <input type="submit" value='Continue' class="content-back-button"/>
+      </div>
+    </form>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
