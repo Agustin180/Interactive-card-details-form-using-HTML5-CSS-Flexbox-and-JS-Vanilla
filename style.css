@@ -152,6 +152,7 @@ body {
     width: 400px;
     gap: 10px;
     margin-right: 30px;
+    margin-left: 200px;
     flex-direction: column;
 }
 
@@ -282,7 +283,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 1374px) {
+@media screen and (max-width: 1590px) {
     .attribution{
         font-size: 13px;
     }
@@ -305,6 +306,9 @@ body {
 }
 
 @media screen and (max-width: 998px) {
+    .content-back-data{
+        margin-left: 0;
+    }
     .total-content-general {
         flex-direction: column;
     }
