@@ -37,4 +37,4 @@ Users should be able to:
 
 - Website - [Agustin Cortazzi](https://agustin180.github.io/Portfolio/)
 - Frontend Mentor - [@Agustin180](https://www.frontendmentor.io/profile/Agustin180)
-- Twitter - [Agustin Cortazzi](https://www.linkedin.com/in/agustin-cortazzi-913196211/)
+- Linkedin - [Agustin Cortazzi](https://www.linkedin.com/in/agustin-cortazzi-913196211/)
